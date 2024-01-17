@@ -98,6 +98,7 @@ const Mapsec = () => {
               <>
                 {data.length > 0 ? (
                   data?.slice(0, loadMore).map((gotdata) => {
+                    console.log(gotdata)
                     return (
                       <div className="col-xl-3 col-lg-4  col-md-6 col-sm-12">
                         <div
@@ -106,13 +107,12 @@ const Mapsec = () => {
                           onClick={() => handleImageClick(gotdata)}
                         >
                           <div className="img-fluid">
-                            {/* <Gotimg img={gotdata.poster_path} /> */}
 
-                            {gotdata.img ? (
-                              <img
-                                src={`https://www.themoviedb.org/t/p/w600_and_h900_bestv2/${gotdata.poster_path}`}
-                                alt=""
-                              />
+                            {gotdata.poster_path ? (
+                           <img
+                           src={`https://www.themoviedb.org/t/p/w600_and_h900_bestv2/${gotdata.poster_path}}`}
+                           alt=""
+                         />
                             ) : (
                               <img src={Saddy} alt="" />
                             )}
