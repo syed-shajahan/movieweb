@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+.cardblock {
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    box-shadow: 0px 20px 10px #cccccc17;
+}
+
+.img_wrapper {
+    width: 100%;
+    padding-top: 150%;
+    display: block;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.img_wrapper img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: block;
+    object-position: center;
+    object-fit: cover;
+}
+
+.rate_bx {
+    font-size: 15px;
+    font-weight: 400;
+    color: #696969;
+    line-height: 24px;
+    letter-spacing: 0.80px;
+    margin: 20px 0px;
+    display: flex;
+    align-items: center;
+}
+
+.rate_bx span {
+    font-size: 45px !important;
+    font-weight: 800 !important;
+    color: #000 !important;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+.className h3 {
+    font-size: 20px;
+    display: block;
+    letter-spacing: 20px;
+    line-height: 24px;
+    color: #000;
+    text-align: left;
+}
+
+.container-fluid.active {
+    background-color: red !important;
+}
+
+.wrap_bx {
+    padding: 15px;
+    box-shadow: 0px 10px 45px #1a1a1a9e;
+    transition: 0.3s;
+    border: 1px solid #eeeeee66;
+    overflow: hidden;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    background-color: #000;
+}
+
+.wrap_bx:hover {
+    transform: translateY(-5px);
+}
+
+.titletxt {
+    font-size: 28px;
+    margin-bottom: 15px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: block;
+    color: #fff;
+}
+
+.overviewtext {
+    height: 50px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #818181;
+}
+
+body {
+    background-color: #161617 !important;
+}
+
+
+.flot_bx {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    width: max-content;
+}
+
+.flot_bx img {
+    width: 300px;
+    height: auto;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.flot_bx {
+    text-align: center;
+}
+
+/* 
+.modal-header {
+    border-bottom: 0px;
+}
+
+.modal-content {
+    border: 0 !important;
+    background-color: #0b0b0b;
+} */
