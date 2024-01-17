@@ -106,11 +106,11 @@ const Mapsec = () => {
                           onClick={() => handleImageClick(gotdata)}
                         >
                           <div className="img-fluid">
-                            <Gotimg img={gotdata.poster_path} />
+                            {/* <Gotimg img={gotdata.poster_path} /> */}
 
                             {gotdata.img ? (
                               <img
-                                src={`https://www.themoviedb.org/t/p/w600_and_h900_bestv2/${gotdata.img}`}
+                                src={`https://www.themoviedb.org/t/p/w600_and_h900_bestv2/${gotdata.poster_path}`}
                                 alt=""
                               />
                             ) : (
